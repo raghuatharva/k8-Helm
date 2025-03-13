@@ -1,7 +1,7 @@
 apiVersion: v1
-name: nginx
+name: mysql
 version: "0.2"
-description: frontend variables are placed in this chart
+description: mysql variables are placed in this chart
 maintainers:
   - name: raghu_H
     email: raghu10indian@gmail.com
