@@ -48,6 +48,6 @@ spec:
     project: expense    
   ports:
   - name: nodejs-service
-    port: {{ .Values.deployment.port }}         # Service Port , this is for other containers to communicate with nginx container
+    port: {{ .Values.service.port }}         # Service Port , this is for other containers to communicate with nginx container
     targetPort: 8080    # Container Port
     protocol: TCP
