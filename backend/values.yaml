@@ -1,4 +1,4 @@
 deployment:
   imageversion: "v1"
 service:
-  port: 80
+  port: 8080
