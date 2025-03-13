@@ -48,7 +48,7 @@ spec:
     project: expense      
   ports:
   - name: mysql-service
-    port: {{ Values.service.port }}          # Service Port , this is for other containers to communicate with nginx container
+    port: {{ .Values.service.port }}          # Service Port , this is for other containers to communicate with nginx container
     targetPort: 3306    # Container Port
     protocol: TCP
  
